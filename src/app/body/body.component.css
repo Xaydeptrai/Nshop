@@ -9,4 +9,12 @@
   .font-poppins{
     font-family: 'poppins', sans-serif;
   }
+  .inCircleNum{
+    font-weight: bold;
+    margin-bottom: -10px;
+    font-size: 22px;
+  }
+  .inCircleText{
+    font-size: 14px;
+  }
 }

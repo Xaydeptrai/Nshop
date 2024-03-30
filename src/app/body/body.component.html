@@ -1,5 +1,5 @@
 <div class="flex bg-custom-color2 w-auto h-auto">
-  <div class="h-fit w-1/2 flex items-center justify-center mt-16">
+  <div class="h-fit w-full md:w-1/2 flex items-center justify-center md:mt-16">
     <!--Text-->
     <div class="space-y-7 ml-24 mr-24">
       <p class="font-roboto text-left font-bold text-custom-color4 leading-none text-7xl mr-20">YOUR GATEWAY TO
@@ -14,49 +14,210 @@
         <div class="flex gap-6 font-poppins">
           <div class="rounded-full w-20 h-20 bg-black text-white text-center flex items-center justify-center">
             <div class="flex flex-col items-center justify-center">
-              <p class="font-bold" style="margin-bottom:-5px">5</p>
-              <p style="font-size: 12px">Days</p>
+              <p class="inCircleNum">5</p>
+              <p class="inCircleText">Days</p>
             </div>
           </div>
           <!--Hours-->
           <div class="rounded-full w-20 h-20 bg-black text-white text-center flex items-center justify-center">
             <div class="flex flex-col items-center justify-center">
-              <p class="font-bold" style="margin-bottom:-5px">5</p>
-              <p style="font-size: 11px">Hours</p>
+              <p class="inCircleNum">23</p>
+              <p class="inCircleText">Hours</p>
             </div>
           </div>
           <!--Minutes-->
           <div class="rounded-full w-20 h-20 bg-black text-white text-center flex items-center justify-center">
             <div class="flex flex-col items-center justify-center">
-              <p class="font-bold" style="margin-bottom:-5px">5</p>
-              <p style="font-size: 11px">Minutes</p>
+              <p class="inCircleNum">59</p>
+              <p class="inCircleText">Minutes</p>
             </div>
           </div>
           <!--Seconds-->
           <div class="rounded-full w-20 h-20 bg-black text-white text-center flex items-center justify-center">
             <div class="flex flex-col items-center justify-center">
-              <p class="font-bold" style="margin-bottom:-5px">5</p>
-              <p style="font-size: 11px">Seconds</p>
+              <p class="inCircleNum">30</p>
+              <p class="inCircleText">Seconds</p>
             </div>
           </div>
         </div>
       </div>
       <!--Button-->
-      <button class="w-60 h-14 bg-custom-color1 rounded-full font-roboto text-1xl text-white">
+      <button class="w-60 h-14 bg-custom-color1 rounded-full font-roboto text-white">
         Bid Now
       </button>
     </div>
   </div>
-  <div class="h-full w-1/2 flex justify-center items-end">
+  <div class="h-full w-full md:w-1/2 flex justify-center items-end">
     <img class="object-fill" ngSrc="assets/img/banner1.png" height="650" width="650" alt="">
   </div>
 </div>
 
-<div class="bg-custom-color1 w-auto flex justify-center items-center text-white" style="height: 112px">
+<div class="bg-custom-color1 w-auto flex justify-center items-center text-white md:h-112px">
   <span class="font-roboto font-extrabold" style="font-size: 48px">ONGOING AUCTION</span>
 </div>
 
 
 <div class="bg-white w-auto h-1/3 min-h-96">
+  <div class="bg-white">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-screen-2xl lg:px-8">
+      <h2 class="sr-only">Products</h2>
 
+      <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <!--product 1-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product1.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 2-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product2.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 3-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product3.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 4-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product4.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 5-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product5.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!-- More products... -->
+      </div>
+      <!--Button-->
+      <div class="flex items-center justify-center">
+        <button class="bg-custom-color1 rounded-full h-12 w-48 text-white">
+          View All
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
+
+<div class="border-b border-gray-200 mx-4 md:mx-24"></div>
+
+<div class="bg-white w-auto h-1/3 min-h-96">
+  <div class="bg-white">
+    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+      <h2 class="sr-only">Products</h2>
+
+      <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <!--product 1-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product1.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 2-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product2.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 3-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product3.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 4-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product4.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!--product 5-->
+        <a class="group">
+          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+            <img src="assets/img/product5.png" alt=""
+                 class="h-full w-full object-cover object-center group-hover:opacity-75">
+          </div>
+          <h3 class="mt-4 text-xl font-roboto text-custom-color4">Product Name</h3>
+          <div class="flex mt-1 text-2xl font-roboto text-custom-color4 font-bold gap-1">
+            <p>48</p>
+            <p>USD</p>
+          </div>
+        </a>
+        <!-- More products... -->
+      </div>
+      <!--Button-->
+      <div class="flex items-center justify-center">
+        <button class="bg-custom-color1 rounded-full h-12 w-48 text-white">
+          View All
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
