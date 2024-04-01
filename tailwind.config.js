@@ -10,6 +10,7 @@ module.exports = {
         'custom-color2': '#F2F0F1',
         'custom-color3': '#F0F0F0',
         'custom-color4': '#9F3247',
+        'custom-color5': 'rgba(159,50,71,0.06)',
       },
     },
   },
