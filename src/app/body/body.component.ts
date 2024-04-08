@@ -32,10 +32,4 @@ export class BodyComponent{
       'color': this.hoveredButtons[index] ? '#FFFFFF' : '#000000'
     };
   }
-
-  constructor(private router: Router) {}
-
-  gotoProductDetail() {
-    this.router.navigate(['/product-page']);
-  }
 }
