@@ -14,8 +14,8 @@ import {FormControl, FormGroup, ReactiveFormsModule, Validators} from "@angular/
 })
 export class SignupComponent implements OnInit {
 
-  // @ts-ignore
-  signupForm: FormGroup;
+
+  signupForm!: FormGroup;
 
   ngOnInit() {
     this.signupForm = new FormGroup({
@@ -28,41 +28,40 @@ export class SignupComponent implements OnInit {
 
   onSubmit() {
 
-    if(this.signupForm.get('email')?.value === null){
+    if (this.signupForm.get('email')?.value === null) {
       alert('Please enter an email');
       return;
     }
 
-    if(!this.signupForm.get('email')?.valid){
+    if (!this.signupForm.get('email')?.valid) {
       alert('Please enter a valid email');
       return;
     }
 
-    if (this.signupForm.get('password')?.value === null){
+    if (this.signupForm.get('password')?.value === null) {
       alert('Please enter a password');
       return;
     }
 
-    if (this.signupForm.get('password')?.value.length < 8){
+    if (this.signupForm.get('password')?.value.length < 8) {
       alert('Password should be at least 8 characters long');
       return;
     }
 
-    if(this.signupForm.get('confirm-password')?.value === null){
+    if (this.signupForm.get('confirm-password')?.value === null) {
       alert('Please confirm your password');
       return;
     }
-    if(this.signupForm.get('password')?.value !== this.signupForm.get('confirm-password')?.value){
+    if (this.signupForm.get('password')?.value !== this.signupForm.get('confirm-password')?.value) {
       alert('Passwords do not match');
       return;
     }
-    if(this.signupForm.get('terms')?.value === false){
+    if (this.signupForm.get('terms')?.value === false) {
       alert('Please agree to the terms and conditions');
       return;
-    }
+    } else {
+      alert('Signup Successful!');
 
-    else {
-      alert('Signup successful');
     }
   }
 }
