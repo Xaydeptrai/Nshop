@@ -1,5 +1,7 @@
 import {Component, Renderer2} from '@angular/core';
 import {NgClass, NgOptimizedImage, NgStyle} from "@angular/common";
+import {RouterLink, RouterLinkActive} from "@angular/router";
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-body',
@@ -7,12 +9,14 @@ import {NgClass, NgOptimizedImage, NgStyle} from "@angular/common";
   imports: [
     NgStyle,
     NgOptimizedImage,
-    NgClass
+    NgClass,
+    RouterLink,
+    RouterLinkActive
   ],
   templateUrl: './body.component.html',
   styleUrl: './body.component.css'
 })
-export class BodyComponent {
+export class BodyComponent{
 
   hoveredButtons: boolean[] = [false, false, false, false, false, false]; // Mảng lưu trạng thái hover của từng button
 
@@ -29,4 +33,9 @@ export class BodyComponent {
     };
   }
 
+  constructor(private router: Router) {}
+
+  gotoProductDetail() {
+    this.router.navigate(['/product-page']);
+  }
 }

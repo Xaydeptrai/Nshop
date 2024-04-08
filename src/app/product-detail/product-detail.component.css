@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+}
+.header-product{
+  margin-top: 50px;
+  padding: 0px 80px;
+}
+.menu-items{
+  display: flex;
+
+  list-style: none;
+
+}
+.menu-items .product-item {
+  text-decoration: none;
+  margin: 5px;
+  color: #666666;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+
+
+}
+.container .ct-left {
+  margin-right: 20px;
+}
+.container .ct-left img {
+  margin-bottom: 8px;
+  border-radius: 5px;
+  display: block;
+}
+
+.container .ct-mid {
+  margin-right: 60px;
+
+}
+
+.container .ct-right .p1 {
+  font-weight: bold;
+  font-size: large;
+}
+
+.container .ct-right .p2{
+  font-size: small;
+  color: rgba(159, 50, 71, 1);
+}
+.container .ct-right .p3{
+  font-size: large;
+  font-weight:500;
+}
+
+.container .ct-right  {
+  word-wrap: break-word;
+
+
+}
+.container .ct-right .p4 {
+  font-size: small;
+  font-weight: 500;
+}
+.container .ct-right .new4 {
+  border: 1px solid black;
+}
+
+.container .ct-right .item-ct-right {
+  display: flex;
+}
+
+.container .ct-right .item-ct-right  {
+  width: 280px;
+  height: 40px;
+  background: rgba(123, 35, 52, 1);
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  transition: 0.4s;
+
+
+}
+.container .ct-right .item-ct-right:hover {
+  background: rgba(146, 20, 44, 1);
+}
+
+.container .ct-right .item-ct-right .button a {
+  font-weight: 300;
+  color: white;
+  text-decoration: none;
+}
+.container .ct-right .box-bottom  {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  border-radius: 3px;
+}
+.container .ct-right .box-bottom .item-top {
+  margin-left: 20px;
+}
+.container .ct-right .box-bottom .item-top p {
+  font-size: small;
+  font-weight: 600;
+}
+
+.container .ct-right .box-bottom .item-top .p1 {
+  padding-top: 10px;
+  font-size: small;
+  font-weight: 600;
+}
+
+.container-2 {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  width: 1250px;
+  max-width: fit-content;
+  margin-left: 120px;
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.container-2 .p1 {
+  font-weight: bold;
+  font-size: larger;
+}
+.container-2 .p2 {
+  font-weight: 400;
+}
