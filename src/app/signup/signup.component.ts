@@ -1,13 +1,15 @@
 import {Component, OnInit} from '@angular/core';
 import {RouterLink} from "@angular/router";
 import {FormControl, FormGroup, ReactiveFormsModule, Validators} from "@angular/forms";
+import {NgOptimizedImage} from "@angular/common";
 
 @Component({
   selector: 'app-signup',
   standalone: true,
   imports: [
     RouterLink,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgOptimizedImage
   ],
   templateUrl: './signup.component.html',
   styleUrl: './signup.component.css'

@@ -12,6 +12,11 @@ module.exports = {
         'custom-color4': '#9F3247',
         'custom-color5': 'rgba(159,50,71,0.06)',
       },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],
